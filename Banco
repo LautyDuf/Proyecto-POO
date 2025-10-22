@@ -17,14 +17,14 @@ namespace Proyecto_POO
 	public class Banco
 	{
 		private string nombre;
-		private List<Cuenta> ListaCuentas;
-		private List<Cliente> ListaClientes;
+		private List<Cuenta> cuentas;
+		private List<Cliente> clientes;
 		
 		public Banco(string nombre)
 		{
 			this.nombre = nombre;
-			this.ListaCuentas = new List<Cuenta>();
-			this.ListaClientes = new List<Cliente>();
+			this.cuentas = new List<Cuenta>();
+			this.clientes = new List<Cliente>();
 		}
 		
 		public List<Cuenta> listaCuentas
